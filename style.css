@@ -1,0 +1,40 @@
+.divCadastros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px black;
+    background-color: rgb(204, 204, 204);
+    height: 1900px;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border: none;
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(223, 75, 100);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: pink;
+}
